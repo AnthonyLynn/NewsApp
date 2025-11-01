@@ -1,3 +1,3 @@
 # Website
 
-https://anthonylynn.github.io/TripleTenFinalProject/
+https://anthonylynn.github.io/NewsApp/
