@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://AnthonyLynn.github.io/TripleTenFinalProject/",
+  "homepage": "https://AnthonyLynn.github.io/NewsApp/",
   "scripts": {
     "dev": "vite --open",
     "build": "vite build",
