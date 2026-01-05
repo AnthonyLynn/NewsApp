@@ -9,11 +9,13 @@
 }
 
 .about__image {
-  width: 464px;
-  height: auto;
+  max-height: 464px;
+  height: 464px;
   aspect-ratio: 1;
+  object-fit: cover;
+  object-position: top;
 
-  border-radius: 999em;
+  border-radius: 100%;
 }
 
 .about__header {
@@ -40,7 +42,6 @@
 
 @media screen and (width <= 1024px) {
   .about__image {
-    width: 232px;
     height: 232px;
     margin: 21px 0 0;
   }
@@ -72,9 +73,8 @@
   }
 
   .about__image {
-    max-width: 288px;
-    width: 100%;
-    height: auto;
+    height: 272px;
+    aspect-ratio: 1;
     margin: 0;
   }
 }
